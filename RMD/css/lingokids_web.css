@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Gotham Rounded'; 
-    src: "css/GothamRounded-Light.otf"; 
+    src: url("https://samuelhuerga.github.io/css/GothamRounded-Light.otf"); 
 }
 
 h2{
