@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Gotham Rounded'; 
+    src: "css/GothamRounded-Light.otf"; 
+}
+
+h2{
+  color: #5AC9FA;
+  font-family:"Gotham Rounded";
+
+}
+
+#TOC {
+  position: fixed;
+  left: 0;
+  top: 0;
+  /*width: 400px;*/
+  width: 20%;
+  height: 120%;
+  margin: auto;
+  overflow:auto;
+  background-color: #f2f0ed;
+  color: #555;
+  font-family:"Gotham Rounded";
+  padding-top: 50px;
+}
+body {
+  /*max-width: 800px;*/
+  width: 80%;
+  margin: auto;
+  font-family:"Gotham Rounded";
+  /* margin-left:410px;*/
+  /*line-height: 20px;*/
+}
+
+h3 {
+margin: 50px 0 25px;
+font-family:"Gotham Rounded";
+font-size: 20px;
+line-height: 20px;
+color: #5AC9FA;
+font-weight: bold;
+font-family:"Gotham Rounded";
+text-align: center;
+}
+
+h3:after
+{
+    content:' ';
+    display:block;
+    border:2px solid #5AC9FA;
+}
+
+h4{
+margin: 30px 0 15px;
+font-weight: bold;
+font-family:"Gotham Rounded";
+color: #5AC9FA;
+}
+
+h5{
+margin: 40px 0 20px;
+font-size: 20px;
+font-style: italic;
+color: #5AC9FA;
+font-family:"Gotham Rounded";
+}
+
+h5:after
+{
+    content:' ';
+    display:block;
+    border:1px #5AC9FA;
+    border-style:dotted none none none;
+}
+.author, .date{
+  font-family:"Gotham Rounded";
+	margin: 0 0 !important;
+}
+
+#header{
+  box-shadow:none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  
+  background-color: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-repeat: no-repeat;
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  filter: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  
+  text-align: right;
+  background: white url("img/header_bg.jpg") repeat-x left bottom;
+  height:70px;
+  padding:0;
+  margin:0;
+  font-family:"Gotham Rounded";
+}
+
+
+
+h1 {
+  color: #5AC9FA;
+  text-align: right;
+  padding-bottom: 30px;
+  font-size: 32px;
+  margin-top: 20px;
+  font-family:"Gotham Rounded";
+  background: url("img/lingokids_logo.png") no-repeat left bottom;
+}
+
+ b, strong {
+     color: #5AC9FA;
+     }
+
+/*
+  #TOC  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}*/
